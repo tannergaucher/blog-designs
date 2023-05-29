@@ -59,4 +59,5 @@ p:first-of-type:first-letter {
   margin-right: 1rem;
   color: #005bbb;
   text-shadow: 0.25rem 0.25rem #ffd500;
+  font-family: "Josefin Sans", sans-serif;
 }

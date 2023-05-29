@@ -11,4 +11,8 @@
   display: grid;
 }
 
+.card-title {
+  text-wrap: balance;
+}
+
 /*# sourceMappingURL=index-layout.0e005c90.css.map */

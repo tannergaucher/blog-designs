@@ -10,3 +10,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: var(--space-lg);
 }
+
+.card-title {
+  text-wrap: balance;
+}

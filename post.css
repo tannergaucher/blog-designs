@@ -51,3 +51,12 @@ p {
   margin-block-start: var(--space-sm);
   margin-block-end: var(--space-xl);
 }
+
+p:first-of-type:first-letter {
+  initial-letter: var(--initial, 2 2);
+  -webkit-initial-letter: var(--initial, 2 2);
+  font-weight: bold;
+  margin-right: 1rem;
+  color: #005bbb;
+  text-shadow: 0.25rem 0.25rem #ffd500;
+}

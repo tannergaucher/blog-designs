@@ -46,4 +46,13 @@ p {
   margin-block-end: var(--space-xl);
 }
 
+p:first-of-type:first-letter {
+  initial-letter: var(--initial, 2 2);
+  -webkit-initial-letter: var(--initial, 2 2);
+  color: #005bbb;
+  text-shadow: .25rem .25rem #ffd500;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=post.0464b63a.css.map */

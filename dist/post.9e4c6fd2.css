@@ -41,4 +41,8 @@ footer {
   margin-block-start: var(--space-xl);
 }
 
+main {
+  min-width: 100vh;
+}
+
 /*# sourceMappingURL=post.9e4c6fd2.css.map */

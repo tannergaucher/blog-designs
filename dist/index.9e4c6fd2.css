@@ -1,0 +1,48 @@
+@import "https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap";
+:root {
+  --bg-1: #fff;
+  --bg-2: #f8f8f8;
+  --space-sm: .5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+}
+
+body {
+  color: #333;
+  background-color: var(--bg-2);
+  margin: 0;
+  font-family: Merriweather, serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+header {
+  width: 100%;
+  background-color: var(--bg-1);
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  padding: var(--space-md);
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: var(--bg-1);
+  padding: var(--space-xl);
+  text-align: center;
+  margin-block-start: var(--space-xl);
+}
+
+main {
+  min-width: 100vh;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

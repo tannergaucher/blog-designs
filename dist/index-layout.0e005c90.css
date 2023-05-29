@@ -1,0 +1,14 @@
+.card-title {
+  font-size: xx-large;
+}
+
+.posts {
+  margin: 0 auto;
+  max-width: 80%;
+  grid-gap: var(--space-lg);
+  grid-template-columns: repeat(3, 1fr);
+  margin-block-start: calc(var(--space-xl) * 2);
+  display: grid;
+}
+
+/*# sourceMappingURL=index-layout.0e005c90.css.map */

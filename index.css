@@ -1,0 +1,51 @@
+/* import serif font */
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap");
+
+/* and use  */
+
+:root {
+  --bg-1: #ffffff;
+  --bg-2: #f8f8f8;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333333;
+  background-color: var(--bg-2);
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: var(--bg-1);
+  /* box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1); */
+}
+
+header h1 {
+  margin: 0;
+  padding: var(--space-md);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: var(--bg-1);
+  padding: var(--space-xl);
+  text-align: center;
+  margin-block-start: var(--space-xl);
+}
+
+main {
+  min-width: 100vh;
+}

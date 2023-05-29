@@ -1,0 +1,49 @@
+.post-title {
+  font-size: xxx-large;
+  text-align: center;
+  margin: calc(var(--space-xl) * 2);
+}
+
+.post-subtitle {
+  text-align: center;
+  margin: calc(var(--space-xl) * 2) 0;
+  grid-column: 2 / span 10;
+  font-size: x-large;
+}
+
+.post-content {
+  max-width: 80%;
+  text-align: justify;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  font-size: large;
+  display: grid;
+}
+
+.post-content img {
+  grid-column: 1 / span 12;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+.post-content h1, h2, h3, h4, h5, small {
+  grid-column: 1 / span 12;
+}
+
+.post-content p {
+  grid-column: 3 / span 8;
+}
+
+p {
+  font-size: larger;
+  line-height: 2;
+}
+
+.post-content img {
+  margin-block-start: var(--space-sm);
+  margin-block-end: var(--space-xl);
+}
+
+/*# sourceMappingURL=post.0464b63a.css.map */
